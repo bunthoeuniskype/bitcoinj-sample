@@ -1,0 +1,43 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com</groupId>
+  <artifactId>app</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>bitcoin</name>
+  <description>research purpose	</description>
+
+	<properties>
+	<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
+	
+	<dependencies>
+		 <dependency>
+			 <groupId>junit</groupId>
+			 <artifactId>junit</artifactId>
+			 <version>3.8.1</version>
+			 <scope>test</scope>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/com.google/bitcoinj -->
+		<dependency>
+		    <groupId>com.google</groupId>
+		    <artifactId>bitcoinj</artifactId>
+		    <version>0.11.3</version>
+		</dependency>
+	</dependencies>
+	
+	 <repositories>
+    <!-- declare BitCoinJ repository name and location -->
+	 <repository>
+		 <id>bitcoinj-release</id>
+			 <releases/> 
+			 <url>http://nexus.bitcoinj.org/content/repositories/releases</url>
+			 </repository>
+			 <repository>
+			 <id>bitcoinj-snapshot</id>
+			 <snapshots/>
+			 <url>http://nexus.bitcoinj.org/content/repositories/snapshots</url>
+		 </repository>
+	 </repositories>
+  
+</project>
