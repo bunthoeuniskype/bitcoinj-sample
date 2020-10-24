@@ -15,7 +15,7 @@ import com.google.bitcoin.store.UnreadableWalletException;
 
 public class SendCoins {
 
-	// command line java SendCoins test test.wallet 0.00001 msw5y3txDXEnBG6zhbCe8HMAmSspzA8BcV
+	// command line java SendCoins test test.wallet 1 msw5y3txDXEnBG6zhbCe8HMAmSspzA8BcV
 	public static void main(String[] args) throws InsufficientMoneyException, PeerException, IOException, UnreadableWalletException, AddressFormatException, BlockStoreException {
 
 		if (args.length != 4) {
