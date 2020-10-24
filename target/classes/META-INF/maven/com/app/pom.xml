@@ -7,7 +7,9 @@
   <description>research purpose	</description>
 
 	<properties>
-	<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<maven.compiler.target>1.8</maven.compiler.target>
+		<maven.compiler.source>1.8</maven.compiler.source>
 	</properties>
 	
 	<dependencies>
@@ -24,6 +26,12 @@
 		    <artifactId>bitcoinj</artifactId>
 		    <version>0.11.3</version>
 		</dependency>
+		
+		 <dependency>
+	      <groupId>org.web3j</groupId>
+	      <artifactId>core</artifactId>
+	      <version>4.3.0</version>
+	    </dependency>
 	</dependencies>
 	
 	 <repositories>
